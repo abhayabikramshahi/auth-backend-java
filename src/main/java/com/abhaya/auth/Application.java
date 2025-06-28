@@ -1,4 +1,4 @@
-package com;
+package com.abhaya.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,6 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        System.out.println("🔥 Server is running... at http://localhost:8080");
+        System.out.println("🔥 Server is running at http://localhost:8080");
     }
 }
